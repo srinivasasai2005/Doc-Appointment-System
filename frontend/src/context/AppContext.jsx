@@ -11,7 +11,7 @@ const AppContextProvider = (props) => {
     const [userData, setUserData] = useState(false);
 
     const currencySymbol = '₹';
-    const backendUrl = import.meta.env.VITE_BACKEND_URL;
+    const backendUrl = "https://doc-appointment-system-backend-bvn5.onrender.com";
 
     const getDoctorsData = async () => {
         try {
