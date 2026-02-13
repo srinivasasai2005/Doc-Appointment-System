@@ -13,7 +13,7 @@ const AdminContextProvider = (props) => {
     const [appointments, setAppointments] = useState([]);
     const [dashData, setDashData] = useState(false);
 
-    const backendUrl = "https://doc-appointment-system-backend-bvn5.onrender.com";
+    const backendUrl = import.meta.env.VITE_BACKEND_URL;
 
     const getAllDoctors = async () => {
         try { 
