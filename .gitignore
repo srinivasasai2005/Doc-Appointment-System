@@ -1,0 +1,13 @@
+# Ignore dependency folders
+node_modules/
+**/node_modules/
+
+# Ignore specific secret files in subfolders
+admin/.env
+backend/.env
+frontend/.env
+.env
+
+# Ignore build/dist folders
+dist/
+build/
